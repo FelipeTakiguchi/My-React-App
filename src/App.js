@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import FirstComponent from './components/FirstComponent';
+import { Fragment } from 'react';
+import Counter from './components/Counter';
+import Incrementer from './components/Incrementer';
+import Calculator from './components/Calculator';
+import Timer from './components/Timer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class='App'>
+      <div class='center'>
+        <FirstComponent/>
+        <div class='content'>
+          <Timer></Timer>
+        </div>
+      </div>
     </div>
   );
 }
