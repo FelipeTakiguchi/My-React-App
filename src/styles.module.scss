@@ -1,0 +1,52 @@
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    margin-top: 5vh;
+    padding: 30px;
+}
+
+.orange{
+    background-color: rgb(211, 104, 16);
+}
+
+.button {
+    font-size: 40px;
+    color: white;
+    border-radius: 15px;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.button:hover {
+    color: black;
+    background-color: rgb(135, 207, 26);
+}
+
+.title{
+    font-size: 50px;
+    margin: 0px;
+}
+
+.card{
+    width: 400px;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    padding: 17px;
+    border-radius: 15px;
+}
+
+.header__title{
+    text-indent: 20px;    
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(240, 242, 245);
+    padding: 20px;
+    max-height: 10vh;
+}

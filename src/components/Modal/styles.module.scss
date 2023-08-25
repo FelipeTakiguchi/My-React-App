@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 430px;
+}
+
+.text__area {
+    min-height: 200px;
+}
+
+.input__custom, .text__area {
+    font-size: 20px;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+}
